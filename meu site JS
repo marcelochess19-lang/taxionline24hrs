@@ -1,0 +1,19 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('form-contato');
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault(); // Impede o reload da página
+
+    // Valida se os campos estão preenchidos
+    const nome = document.getElementById('nome').value.trim();
+    const telefone = document.getElementById('telefone').value.trim();
+    const mensagem = document.getElementById('mensagem').value.trim();
+
+    if (nome && telefone && mensagem) {
+      // Simula envio e abre o modal
+      window.location.hash = '#openModal';
+    } else {
+      alert('Por favor, preencha todos os campos!');
+    }
+  });
+});
