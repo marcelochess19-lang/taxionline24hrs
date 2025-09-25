@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<body>
+  
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Táxi Online 24hrs - Campinas/SP</title>
+  <link rel="stylesheet" href="Home.css">
+  <script type="text/javascript" src="Home.js"></script> 
+</head>
+
+  <header>
+    <h1>🚖 Táxi Online 24hrs</h1>
+    <p>Seu transporte rápido e seguro em Campinas/SP</p>
+    <a href="https://wa.me/551998983552181" class="btn">Chamar no WhatsApp</a>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Atendemos 24 horas em Campinas e região. Conforto, segurança e pontualidade para todos os clientes.</p>
+  </section>
+  
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <ul>
+      <li>Corridas rápidas na cidade</li>
+      <li>Traslado para aeroportos</li>
+      <li>Viagens intermunicipais</li>
+      <li>Atendimento 24hrs</li>
+      <li>Agendamento de viagens</li>
+      <li>Viagens seguras</li>
+    </ul>
+  </section>
+
+  
+
+  <footer>
+    <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato agora mesmo:</p>
+    <a href="https://wa.me/5519983552181" class="btn" target="_blank">WhatsApp</a>
+    <a href="https://www.instagram.com/giaretta.marcio/" class="btn" target="_blank">Instagram</a>
+
+<form id="form-contato" action="https://formsubmit.co/jassogoncalves@gmail.com" method="POST">
+  <input type="text" id="nome" placeholder="Seu nome" required>
+  <input type="tel" id="telefone" placeholder="Seu telefone" required>
+  <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+  
+  <button type="submit">Enviar</button>
+</form>
+
+<div id="openModal" class="modalDialog">
+  <div>
+    <a href="#close" title="Close" class="close">X</a>
+    <h2>Pronto!</h2>
+    <p>Suas informações de contatos foram enviadas.</p>
+  </div>
+</div>
+  </section>
+    <p>© 2025 Táxi Online 24hrs - Campinas/SP</p>
+  </footer>
+
+</body>
+</html>
